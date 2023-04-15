@@ -1,12 +1,13 @@
 import React from 'react'
+import css from './Services.module.css';
 
 const Services = () => {
   return (
-    <div>
+    <div className={css.container}>
         <h3>Our services</h3>
     
-        <div>service 1</div>
-        <div>Desarrollo de aplicaciones moviles</div>
+        <p className={css.serviceText} >Desarrollo de paginas web</p>
+        <p>Desarrollo de aplicaciones moviles</p>
     </div>
   )
 }

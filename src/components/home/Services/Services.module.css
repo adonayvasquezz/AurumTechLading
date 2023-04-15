@@ -1,0 +1,9 @@
+.container {
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.serviceText {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
